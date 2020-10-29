@@ -27,10 +27,11 @@ use storage_proofs::parameter_cache::{
 
 const ERROR_IPFS_COMMAND: &str = "failed to run ipfs";
 const ERROR_IPFS_PUBLISH: &str = "failed to publish via ipfs";
-const PUBLISH_SECTOR_SIZES: [u64; 5] = [
+const PUBLISH_SECTOR_SIZES: [u64; 6] = [
     SECTOR_SIZE_2_KIB,
     SECTOR_SIZE_8_MIB,
     SECTOR_SIZE_512_MIB,
+    SECTOR_SIZE_16_GIB,
     SECTOR_SIZE_32_GIB,
     SECTOR_SIZE_64_GIB,
 ];

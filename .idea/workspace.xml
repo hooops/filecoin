@@ -13,11 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89b18932-b584-4f03-b1c0-30c7f2ba819e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fil-proofs-tooling/src/bin/update_tree_r_cache/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/fil-proofs-tooling/src/bin/update_tree_r_cache/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filecoin-proofs/src/bin/phase2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/filecoin-proofs/src/bin/phase2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filecoin-proofs/src/constants.rs" beforeDir="false" afterPath="$PROJECT_DIR$/filecoin-proofs/src/constants.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filecoin-proofs/tests/api.rs" beforeDir="false" afterPath="$PROJECT_DIR$/filecoin-proofs/tests/api.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-proofs/core/src/gadgets/por.rs" beforeDir="false" afterPath="$PROJECT_DIR$/storage-proofs/core/src/gadgets/por.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603851885843</updated>
-      <workItem from="1603851887105" duration="16500000" />
+      <workItem from="1603851887105" duration="18701000" />
     </task>
     <servers />
   </component>
@@ -82,9 +78,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="353" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1603865089437" />
-    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1603873853882">
+    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1603950997926">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1603873853882" />
+    <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1603950997926" />
   </component>
 </project>
