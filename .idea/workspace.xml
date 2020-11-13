@@ -48,15 +48,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603851885843</updated>
-      <workItem from="1603851887105" duration="18701000" />
+      <workItem from="1603851887105" duration="20222000" />
+      <workItem from="1604909652255" duration="1000" />
     </task>
     <servers />
   </component>
@@ -78,9 +73,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="353" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1603865089437" />
-    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1603950997926">
+    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1603955166516">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1603950997926" />
+    <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1603955166516" />
   </component>
 </project>

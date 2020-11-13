@@ -202,7 +202,7 @@ pub fn create_replicas<Tree: 'static + MerkleTreeTrait>(
             .collect::<Result<Vec<_>, _>>()
     })
     .expect("seal_pre_commit produced an error");
-
+    info!("{}",seal_pre_commit_outputs.into());
     info!("collecting infos");
 
     let priv_infos = sealed_files
