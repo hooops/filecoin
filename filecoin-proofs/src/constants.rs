@@ -17,7 +17,7 @@ pub const SECTOR_SIZE_8_MIB: u64 = 1 << 23;
 pub const SECTOR_SIZE_16_MIB: u64 = 1 << 24;
 pub const SECTOR_SIZE_512_MIB: u64 = 1 << 29;
 pub const SECTOR_SIZE_1_GIB: u64 = 1 << 30;
-pub const SECTOR_SIZE_16_GIB: u64 = 1 << 34;
+pub const SECTOR_SIZE_16_GIB: u64 = 1 << 32;
 pub const SECTOR_SIZE_32_GIB: u64 = 1 << 35;
 pub const SECTOR_SIZE_64_GIB: u64 = 1 << 36;
 
@@ -112,7 +112,7 @@ lazy_static! {
             (SECTOR_SIZE_16_MIB, 2),
             (SECTOR_SIZE_512_MIB, 2),
             (SECTOR_SIZE_1_GIB, 2),
-            (SECTOR_SIZE_16_GIB, 2349),
+            (SECTOR_SIZE_16_GIB, 600),
             (SECTOR_SIZE_32_GIB, 2349), // this gives 125,279,217 constraints, fitting in a single partition
             (SECTOR_SIZE_64_GIB, 2300), // this gives 129,887,900 constraints, fitting in a single partition
         ]

@@ -17,7 +17,7 @@ use filecoin_proofs::param::{
     get_full_path_for_file_within_cache, has_extension, parameter_id_to_metadata_map,
 };
 use filecoin_proofs::{
-    SECTOR_SIZE_2_KIB, SECTOR_SIZE_32_GIB, SECTOR_SIZE_512_MIB, SECTOR_SIZE_64_GIB,
+    SECTOR_SIZE_2_KIB, SECTOR_SIZE_16_GIB, SECTOR_SIZE_32_GIB, SECTOR_SIZE_512_MIB, SECTOR_SIZE_64_GIB,
     SECTOR_SIZE_8_MIB,
 };
 use storage_proofs::parameter_cache::{
