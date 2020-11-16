@@ -227,7 +227,7 @@ pub fn run(
                 )?;
                 let now = Duration::new(5, 0);
                 let f_now = now;
-                println!("{:?}{:?}",f_now,phase1_output.into());
+                println!("{:?}{:?}",f_now,phase1_output);
                 clear_cache::<DefaultOctLCTree>(
                     &replica_info.private_replica_info.cache_dir_path(),
                 )?;
