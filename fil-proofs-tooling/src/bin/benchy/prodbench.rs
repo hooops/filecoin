@@ -1,4 +1,4 @@
-extern crate chrono;
+
 
 use bellperson::util_cs::bench_cs::BenchCS;
 use bellperson::Circuit;
@@ -15,7 +15,7 @@ use filecoin_proofs::{
 use log::info;
 
 
-use chrono::prelude::*;
+use std::time::Duration;
 use paired::bls12_381::Bls12;
 use rand::SeedableRng;
 use rand_xorshift::XorShiftRng;
@@ -225,16 +225,15 @@ pub fn run(
                     value.clone(),
                     &replica_info.piece_info,
                 )?;
-                let now = time::now();
-                let f_now = time::strftime("%Y-%m-%dT%H:%M:%S", &now).unwrap();
-
+                let now = Duration::new(5, 0)
+                let f_now = now;
                 println!("{:?}{:?}",f_now,phase1_output.into());
                 clear_cache::<DefaultOctLCTree>(
                     &replica_info.private_replica_info.cache_dir_path(),
                 )?;
 
-                let now = time::now();
-                let f_now = time::strftime("%Y-%m-%dT%H:%M:%S", &now).unwrap();
+                let now = Duration::new(5, 0)
+                let f_now = now;
 
                 println!("{:?}{:?}",f_now,phase1_output.into());
 
