@@ -1,3 +1,5 @@
+extern crate chrono;
+
 use bellperson::util_cs::bench_cs::BenchCS;
 use bellperson::Circuit;
 use fil_proofs_tooling::shared::{create_replicas, PROVER_ID, RANDOMNESS, TICKET_BYTES};
