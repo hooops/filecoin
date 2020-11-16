@@ -13,6 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89b18932-b584-4f03-b1c0-30c7f2ba819e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fil-proofs-tooling/src/bin/benchy/prodbench.rs" beforeDir="false" afterPath="$PROJECT_DIR$/fil-proofs-tooling/src/bin/benchy/prodbench.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <workItem from="1605497474452" duration="775000" />
       <workItem from="1605506443746" duration="1256000" />
       <workItem from="1605508531899" duration="1694000" />
-      <workItem from="1605510380981" duration="388000" />
+      <workItem from="1605510380981" duration="803000" />
     </task>
     <servers />
   </component>
