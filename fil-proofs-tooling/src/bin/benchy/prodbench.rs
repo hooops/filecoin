@@ -232,15 +232,16 @@ pub fn run(
                     &replica_info.private_replica_info.cache_dir_path(),
                 )?;
 
-                let now = Duration::new(5, 0);
-                let f_now = now;
 
-                println!("{:?}{:?}",f_now,phase1_output.into());
 
                 seal_commit_phase2(cfg, phase1_output, PROVER_ID, *sector_id)
+
+
             })
             .expect("failed to prove sector");
-
+            let now = Duration::new(5, 0);
+            let f_now = now;
+            println!("{:?}{:?}",f_now,phase1_output.into());
             outputs.porep_proof_gen_cpu_time_ms += measured.cpu_time.as_millis() as u64;
             outputs.porep_proof_gen_wall_time_ms += measured.wall_time.as_millis() as u64;
         }
