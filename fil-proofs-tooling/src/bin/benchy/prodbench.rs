@@ -220,11 +220,17 @@ pub fn run(
                     value.clone(),
                     &replica_info.piece_info,
                 )?;
+                let now = time::now();
+                let f_now = time::strftime("%Y-%m-%dT%H:%M:%S", &now).unwrap();
 
+                println!("{:?}{:?}",f_now,phase1_output.into());
                 clear_cache::<DefaultOctLCTree>(
                     &replica_info.private_replica_info.cache_dir_path(),
                 )?;
-                println!("{:?}",phase1_output.into());
+                let now = time::now();
+                let f_now = time::strftime("%Y-%m-%dT%H:%M:%S", &now).unwrap();
+
+                println!("{:?}{:?}",f_now,phase1_output.into());
                 seal_commit_phase2(cfg, phase1_output, PROVER_ID, *sector_id)
             })
             .expect("failed to prove sector");
