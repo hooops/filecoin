@@ -225,14 +225,14 @@ pub fn run(
                     value.clone(),
                     &replica_info.piece_info,
                 )?;
-                let now = Duration::new(5, 0)
+                let now = Duration::new(5, 0);
                 let f_now = now;
                 println!("{:?}{:?}",f_now,phase1_output.into());
                 clear_cache::<DefaultOctLCTree>(
                     &replica_info.private_replica_info.cache_dir_path(),
                 )?;
 
-                let now = Duration::new(5, 0)
+                let now = Duration::new(5, 0);
                 let f_now = now;
 
                 println!("{:?}{:?}",f_now,phase1_output.into());
