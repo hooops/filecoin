@@ -163,7 +163,7 @@ pub type SectorShape1GiB = SectorShapeSub2;
 
 pub type SectorShape16KiB = SectorShapeSub8;
 pub type SectorShape32GiB = SectorShapeSub8;
-pub type SectorShape16GiB = SectorShapeTop2;
+pub type SectorShape16GiB = SectorShapeBase;
 pub type SectorShape32KiB = SectorShapeTop2;
 
 pub type SectorShape64GiB = SectorShapeTop2;

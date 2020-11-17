@@ -15,6 +15,7 @@
     <list default="true" id="89b18932-b584-4f03-b1c0-30c7f2ba819e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fil-proofs-tooling/src/bin/benchy/prodbench.rs" beforeDir="false" afterPath="$PROJECT_DIR$/fil-proofs-tooling/src/bin/benchy/prodbench.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecoin-proofs/src/constants.rs" beforeDir="false" afterPath="$PROJECT_DIR$/filecoin-proofs/src/constants.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,30 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Test constants::tests::test_with_shape_macro" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package filecoin-proofs --lib constants::tests::test_with_shape_macro -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test constants::tests::test_with_shape_macro" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
@@ -71,7 +96,11 @@
       <workItem from="1605497474452" duration="775000" />
       <workItem from="1605506443746" duration="1256000" />
       <workItem from="1605508531899" duration="1694000" />
-      <workItem from="1605510380981" duration="803000" />
+      <workItem from="1605510380981" duration="2571000" />
+      <workItem from="1605581836927" duration="695000" />
+      <workItem from="1605584001181" duration="1109000" />
+      <workItem from="1605591866966" duration="331000" />
+      <workItem from="1605594558924" duration="1513000" />
     </task>
     <servers />
   </component>
@@ -79,13 +108,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605596044780">
+      <screen x="0" y="25" width="1280" height="730" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1280.730@0.25.1280.730" timestamp="1605596044780" />
     <state x="353" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603865089437">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="353" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1603865089437" />
-    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1603955166516">
+    <state width="1238" height="338" key="GridCell.Tab.0.bottom" timestamp="1605595940300">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1603955166516" />
+    <state width="1238" height="338" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1605595940300" />
+    <state width="1238" height="338" key="GridCell.Tab.0.center" timestamp="1605595940298">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1605595940298" />
+    <state width="1238" height="338" key="GridCell.Tab.0.left" timestamp="1605595940297">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1605595940297" />
+    <state width="1238" height="338" key="GridCell.Tab.0.right" timestamp="1605595940299">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1605595940299" />
+    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1605594609902">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1605594609902" />
   </component>
 </project>
